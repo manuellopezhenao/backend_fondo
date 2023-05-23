@@ -1,0 +1,13 @@
+export default {
+  service: 'gmail',
+  auth: {
+    type: 'OAuth2',
+    user: 'recuperacionfondecar@gmail.com',
+    clientId:
+      '930337276954-kqjcbsr5qqtp0qoollv2qvf2kv36n3pq.apps.googleusercontent.com',
+    clientSecret: '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',
+    refreshToken:
+      '1//04aU6G8JP5Sw0CgYIARAAGAQSNwF-L9IrmFgu9WQEJYhdURliarYLMqX-BaWHv8Php3isTJfUJD3KqwiAnEQIqxxnF05xFd-13n4',
+    accessToken: '',
+  },
+};
