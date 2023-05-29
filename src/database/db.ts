@@ -19,6 +19,17 @@ class db {
       },
     };
 
+    // const config = {
+    //   server: process.env.DB_SERVER,
+    //   database: process.env.DB_DATABASE,
+    //   options: {
+    //     encrypt: true,
+    //     enableArithAbort: true,
+    //     trustServerCertificate: true,
+    //     trustedConnection: true, // Agrega esta línea para habilitar Windows Authentication
+    //   },
+    // };
+
     // Inicializa la conexión a la base de datos
     this.connection = new sql.ConnectionPool(config);
 
